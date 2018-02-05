@@ -7,8 +7,7 @@ package fr.societe.generale.util.exception;
  */
 public class ApplicationException extends Exception {
 
-	private static final long serialVersionUID = "$Id: ApplicationException.java 722 2017-07-30 20:31:52Z amendogomez $".hashCode();
-
+	
 	/**
 	 * <p>Constructor for ApplicationException.</p>
 	 *

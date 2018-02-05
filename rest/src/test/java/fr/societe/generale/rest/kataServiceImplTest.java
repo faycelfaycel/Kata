@@ -23,7 +23,7 @@ import junit.framework.TestCase;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(classes = {AppConfig.class})
 @ActiveProfiles("test")
-public class CellApiServiceImplTest  {
+public class kataServiceImplTest  {
 	
 	final  String  USER_NAME_TEST ="mbarki";
 	final Long  ID_USER_TEST =(long) 1;

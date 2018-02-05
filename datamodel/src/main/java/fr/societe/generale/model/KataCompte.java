@@ -27,11 +27,7 @@ import fr.societe.generale.model.util.AbstractIdModel;
 @Table(name = "KATA_COMPTE")
 public class KataCompte extends AbstractIdModel<String> {
 
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = "$Id: TrilAdministrators.java 1350 2017-10-24 13:26:45Z fmbarki $".hashCode();
-
+	
 	@Id
 	@Column(name = "BIC", unique = true, nullable = false)
 	private String bic;
